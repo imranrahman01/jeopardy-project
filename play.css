@@ -1,0 +1,116 @@
+
+body, table, table td {
+	border:0px;
+	border-collapse:collapse;
+	margin:0px;
+	padding:0px;
+}
+a {
+	color:#FFFF00;
+}
+
+.u-visible {
+	visibility: visible;
+}
+
+.u-hidden {
+	visibility: hidden;
+}
+
+button{
+  border:none;
+  background:none;
+  font-size: 24px;
+  font-weight: bold;
+  color: yellow;
+  width:100%;
+  height:100%;
+}
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+#board {
+	color:#FFFF00;
+	width: 88vw;
+	height: 93.1vh;
+}
+
+#board #categories td {
+	background-color:darkblue;
+	background-image:none;
+	border: black solid 2px;
+}
+#board tr td{
+	height:100px;
+	width:180px;
+	border:#000000 solid 2px;
+	background-color: #071277;
+	border-collapse:collapse;
+	text-align:center;
+	font-size:24px;
+}
+#container {
+	text-align:center;
+	width: 100%;
+	display: flex;
+	padding-top: 65px;
+}
+
+#tboard {
+	width: 89%;
+	margin-left: 0;
+}
+
+#tscore {
+	padding-top: 50px;
+	width: 12%;
+	margin-right: 0;
+	background-color: #2634ae;
+}
+
+#score {
+	color: white;
+
+}
+
+#categories1, #categories2, #categories3, #categories4, #categories5, #categories6 {
+	color: white;
+	text-shadow: 2px 2px black;
+    font-size: 40px;
+}
+#points{
+	background-color:blue;
+	color: yellow;
+	border: none;
+	padding: 20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#score tr {
+	border:#000000 solid 2px;
+	width: 100%;
+}
+#score tr td{
+	height:100px;
+	width:250px;
+	text-align:center;
+	font-size:30px;
+	font-family: swiss911;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px black;
+}
+#answered{
+  background-color:black;
+	color: black;
+	border: none;
+	padding: 20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+#homebtn {
+	height: 20px;
+	color: red;
+	background-color: pink;
+}

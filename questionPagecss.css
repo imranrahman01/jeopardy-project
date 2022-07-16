@@ -1,0 +1,85 @@
+body{
+    background: #051789;
+    color: yellow;
+}
+
+.u-visible {
+    visibility: visible;
+}
+
+.u-hidden {
+    visibility: hidden;
+}
+
+#container{
+    margin-right:20%;
+    margin-left:20%;
+    text-align:center;
+}
+
+@font-face {
+    font-family: Korinna;
+    src: url(fonts/Korinna-Regular.otf);
+}
+
+#container h1 {
+    font-family: Korinna;
+}
+.answer{
+    background:black;
+    color:black;
+    border: none;
+    margin: 50px;
+    padding:50px;
+}
+.answer:focus{
+    background:white;
+}
+.points{
+    width: 100%;
+    border: black 2px solid;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.question {
+    font-size: 70px;
+    font-family: Korinna;
+    color: white;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-shadow: 2px 2px black;
+}
+
+.btn{
+    border:black 2px solid;
+    background:none;
+    font-size: 24px;
+    font-weight: bold;
+    color: yellow;
+    width: 200px;
+    height: 60px;
+}
+.btn:hover,
+.btn:focus {
+    background: #0053ba;
+}
+
+.question-response input {
+    position: inherit;
+    background-color: white;
+    height: 30px;
+    width: 20%;
+    border: none;
+}
+
+.question-response button {
+    position: inherit;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 5%;
+    height: 35px;
+}
